@@ -22,7 +22,7 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation "org.spongepowered:mixin:${project.mixin_version}"
+	// modImplementation "org.spongepowered:mixin:${project.mixin_version}"
 
 	ext.includeModule = { name ->
 		var module = fabricApi.module(name, project.fabric_version)
